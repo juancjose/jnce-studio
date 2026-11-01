@@ -41,3 +41,5 @@ footer{text-align:center;color:var(--mut);padding:30px;border-top:1px solid var(
 .case dt{color:var(--fg);font-weight:600}.case ul{color:var(--mut);margin:10px 0 0 18px}.case h4{margin-top:18px;font-family:"Space Grotesk"}
 .page-hero{padding-top:160px;padding-bottom:20px}
 @media(max-width:860px){.case{grid-template-columns:1fr;gap:24px}nav .lang{display:inline-block!important}}
+
+.hero{overflow:hidden}.grid>*,.card,.group>*{min-width:0}html,body{overflow-x:clip}
